@@ -45,7 +45,3 @@ export const skillReducer = (
     }
   }
 };
-
-const action = {
-  payload: { languageList: [{ count: 1, language: 'Ruby' }, { count: 2, language: 'JavaScript' }] }
-}
