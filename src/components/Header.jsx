@@ -11,8 +11,8 @@ export const Header = () => {
 				<div className="display-table">
 					<div className="display-table-contents">
 						<div className="profile-thumb" style={{ backgroundImage: `url(${ProfileImage})` }}></div>
-						<h1 className="title-text">あなたの名前</h1>
-						<h3 className="title-text">あなたの肩書(ex.Engineer)</h3>
+						<h1 className="title-text">角﨑賢志</h1>
+						<h3 className="title-text">Engineer</h3>
 						<ul className="social-icons">
 							<li className="icon-link">
 								{/* リンク先(href)は任意のURLを設定してください */}
@@ -22,7 +22,7 @@ export const Header = () => {
 							</li>
 							<li className="icon-link">
 								{/* リンク先(href)は任意のURLを設定してください */}
-								<a href="https://github.com/">
+								<a href="https://github.com/satoshi-t-study">
 									<FaGithub color="white" size="2rem" />
 								</a>
 							</li>
